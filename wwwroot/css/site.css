@@ -1,0 +1,91 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.card-main {
+    width: 350px;
+    border-radius: 35px;
+    border: 3px solid black;
+    height: 90vh;
+    margin-top: 10px !important;
+}
+
+div img {
+    border-radius: 125px;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-links {
+    margin-top: 15px;
+}
+
+    .section-links div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+.section-contact {
+    margin-top: 15px;
+}
+
+    .section-contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+.button-enviar {
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align-last: end;
+}
+
+.link-like {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .link-like:hover {
+        text-decoration: underline;
+    }
+
+.link-like {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .link-like:hover {
+        text-decoration: underline;
+    }
+
+footer {
+    background: lightcyan;
+    text-align: center;
+}
+
